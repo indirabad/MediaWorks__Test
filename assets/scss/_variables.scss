@@ -1,0 +1,31 @@
+// PATH
+$font-folder:'../fonts/';
+$img-folder: '../images/';
+
+// COLORS
+
+$c-primary:			#F25B24;
+$c-black:			#474351;
+$c-deep-black:   	#2E2D35;
+$c-white:           #ffffff;
+$c-blue:            #2D1686;
+$c-light-blue:      #4E33B5;
+$c-grey:            #F6F5F9;
+$c-grey-light:      #918D9A;
+$red:               #fc0317;
+$green:             #28a745;
+
+// FONTS
+
+$font-base:			'SegoeUI', Arial, sans-serif;
+$font-extra:		'Whitney', Arial, sans-serif;
+$font-extra-light:	'Whitney-Light', Arial, sans-serif;
+$font-extra-semibold:	'Whitney-Semibold', Arial, sans-serif;
+
+// MIXIN
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

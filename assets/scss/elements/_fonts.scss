@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('#{$font-folder}SegoeUI/SegoeUI.eot');
+    src: url('#{$font-folder}SegoeUI/SegoeUI.eot') format('embedded-opentype'),
+    url('#{$font-folder}SegoeUI/SegoeUI.ttf') format('truetype'),
+    url('#{$font-folder}SegoeUI/SegoeUI.woff') format('woff'),
+    url('fonts/SegoeUI.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('#{$font-folder}Whitney/Whitney.eot');
+    src: url('#{$font-folder}Whitney/Whitney.eot') format('embedded-opentype'),
+    url('#{$font-folder}Whitney/Whitney.ttf') format('truetype'),
+    url('#{$font-folder}Whitney/Whitney.woff') format('woff'),
+    url('fonts/Whitney.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Whitney-Light';
+    src: url('#{$font-folder}Whitney-Light/Whitney-Light.eot');
+    src: url('#{$font-folder}Whitney-Light/Whitney-Light.eot') format('embedded-opentype'),
+    url('#{$font-folder}Whitney-Light/Whitney-Light.ttf') format('truetype'),
+    url('#{$font-folder}Whitney-Light/Whitney-Light.woff') format('woff'),
+    url('fonts/Whitney-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Whitney-Semibold';
+    src: url('#{$font-folder}Whitney-Semibold/Whitney-Semibold.eot');
+    src: url('#{$font-folder}Whitney-Semibold/Whitney-Semibold.eot') format('embedded-opentype'),
+    url('#{$font-folder}Whitney-Semibold/Whitney-Semibold.ttf') format('truetype'),
+    url('#{$font-folder}Whitney-Semibold/Whitney-Semibold.woff') format('woff'),
+    url('fonts/Whitney-Semibold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

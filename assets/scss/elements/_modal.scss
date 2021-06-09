@@ -1,0 +1,55 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(28, 24, 47, 0.3);
+
+    h2{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    // SIXE  
+
+    //modal__small
+    &__small {
+        width: auto;
+        margin: 1.75rem 1rem;        
+        @media screen and (min-width: 768px) {
+            width: 490px;
+            margin: 1.75rem auto;  
+        }
+    }
+
+    //modal__content
+    &__content {
+        padding: 30px;
+        background: $c-white;
+        box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        position: relative;
+        @media screen and (min-width: 768px) {
+            padding: 60px;
+        }
+    }
+
+    .close {
+        color: $c-grey-light;
+        font-size: 28px;
+        cursor: pointer;
+        text-decoration: none;
+        position: absolute;
+        top: 7px;
+        right: 18px;
+        &:hover,
+        &:focus {
+            color: black;
+        }
+    }
+
+}

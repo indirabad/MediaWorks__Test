@@ -1,0 +1,44 @@
+.form {
+
+    //form_primary
+    &_primary {
+        input {
+            border: 1px solid #DDDAE7;
+            border-radius: 4px;
+            padding: 14px 12px;
+            outline: none;
+            font: 1rem $font-extra-light;
+            line-height: 1;
+
+            &::placeholder {
+                color: $c-grey-light;
+                opacity: 1;
+            }
+        }
+
+        .form__item {
+            margin-bottom: 18px;
+
+            label {
+                width: 100%;
+                margin-bottom: 10px;
+                line-height: 1.33;
+                display: block;
+                font: 1.125rem $font-extra-light;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+
+        .btn {
+            margin-top: 16px;
+        }
+
+        .note{
+            display: block;;
+            margin-top: 15px;
+        }
+    }
+}

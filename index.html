@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MediaWorks Test</title>
+    <meta name="description" content="MediaWorks Test" />
+    <meta name="keywords" content="MediaWorks Test" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="navbar__logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <ul class="navbar__menu menu" id="js-menu">
+                    <li>
+                        <a href="#" class="menu__items">Клиентам</a>
+                    </li>
+                </ul>
+                <ul class="navbar__account account" id="js-menu">
+                    <li>
+                        <a href="#" class="menu__items"><img src="assets/images/user.svg">Войти</a>
+                    </li>
+                </ul>
+                <div class="navbar__toggle toggle" id="js-navbar-toggle">
+                    <span class="toggle__line toggle__line_top"></span>
+                    <span class="toggle__line toggle__line_middle"></span>
+                    <span class="toggle__line toggle__line_bottom"></span>
+                </div>
+            </nav>
+            <div class="header__content content c_white">
+                <div class="content__text">
+                    <h1>Подбор авто в лизинг по выгодной цене</h1>
+                    <p>IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</p>
+                    <button class="btn btn_primary btn_normal modal__btn">Регистрация</button>
+                </div>
+                <div class="content__img">
+                    <img class="img_responsive" src="assets/images/header-bg.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main__container">
+        <div class="container">
+            <section class="section advantages">
+                <h2>Меньше условий – больше возможностей</h2>
+                <div class="card__wrapper">
+                    <div class="card card_medium">
+                        <div class="card__text">
+                            <h4>Экономия времени</h4>
+                            <p>Дополнительный канал потенциальных клиентов, готовых приобрести автомобиль, без затрат на рекламу и маркетинг.</p>
+                        </div>
+                        <div class="card__img">
+                            <img class="img_responsive" src="assets/images/time.svg">
+                        </div>
+                    </div>
+                    <div class="card card_medium">
+                        <div class="card__text">
+                            <h4>Никаких задержек</h4>
+                            <p>Вы получаете запросы сразу же после отправки клиентом.</p>
+                        </div>
+                        <div class="card__img">
+                            <img class="img_responsive" src="assets/images/speed.svg">
+                        </div>
+                    </div>
+                    <div class="card card_medium">
+                        <div class="card__text">
+                            <h4>Максимальная информативность</h4>
+                            <p>В каждой заявке указан регион поиска, марка и модель авто, а так же индивидуальные запросы клиента.</p>
+                        </div>
+                        <div class="card__img">
+                            <img class="img_responsive" src="assets/images/information.svg">
+                        </div>
+                    </div>
+                    <div class="card card_medium">
+                        <div class="card__text">
+                            <h4>Удобство общения</h4>
+                            <p>Для каждого запроса у вас открыт чат с клиентом с возможностью отправки документов.</p>
+                        </div>
+                        <div class="card__img">
+                            <img class="img_responsive" src="assets/images/chat.svg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section singup">
+                <div class="card card_big c_white ">
+                    <div class="card__text">
+                        <h3>Регистрируйся и получай актуальные запросы на автомобили от заинтерисованных клиентов</h3>
+                        <button class="btn btn_primary btn_normal  modal__btn">Регистрация</button>
+                    </div>
+                    <div class="card__img" style="background-image: url('assets/images/singup-bg.png')"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div id="singUp" class="modal">
+        <div class="modal__content modal__small">
+            <span class="close">&times;</span>
+            <h2>Авторизация</h2>
+            <form class="form_primary form" action="">
+                <div class="form__item">
+                    <label for="e-mail">E-mail</label>
+                    <input type="text" id="e-mail" placeholder="Введите e-mail">
+                </div>
+                <div class="form__item">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" placeholder="Введите пароль">
+                </div>
+                <button type="submit" class="btn btn_primary btn_big">Войти</button>
+                <span class="c_error note" style="display: none;"></span>
+                <span class="c_success note" style="display: none;"></span>
+            </form>
+        </div>
+    </div>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/modal.js"></script>
+</body>
+
+</html>

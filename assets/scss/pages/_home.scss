@@ -1,0 +1,123 @@
+.main__container {    
+    padding: 60px 0 100px;
+    @media screen and (min-width: 768px) {
+        padding: 130px 0 185px;
+    }
+}
+
+.section {
+    &:not(&:last-child) {
+        margin-bottom: 50px;
+        @media screen and (min-width: 768px) {
+	        margin-bottom: 100px;
+	    }
+    }
+}
+
+.advantages {
+    h2 {
+    	@media screen and (min-width: 768px) {
+	        margin-bottom: 50px;
+	    }        
+    }
+}
+
+.card {
+    //card__wrapper
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    // SIXE
+
+    //card_medium
+    &_medium {
+        width: 100%;
+        background: $c-grey;
+        border-radius: 6px;
+        padding: 27px 23px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @media (min-width: 992px) {
+            width: calc(50% - 15px);
+            padding: 27px 23px 27px 40px;
+        }
+
+        .card__text {
+            width: 100%;
+            text-align: center;
+
+            @media screen and (min-width: 576px) {
+                width: 55%;
+                text-align: left;
+            }
+        }
+
+        .card__img {
+            width: 100%;
+            text-align: center;
+            margin-top: 15px;
+
+            @media screen and (min-width: 576px) {
+                width: calc(45% - 30px);
+                margin-top: 0;
+            }
+
+            @media screen and (min-width: 768px) {
+                width: calc(45% - 50px);
+            }
+        }
+    }
+
+    //card_big
+    &_big {
+        padding: 30px;
+        background: linear-gradient(90deg, $c-blue 0%, $c-light-blue 100%);
+        border-radius: 10px;
+        position: relative;
+        @media screen and (min-width: 768px) {
+            padding: 50px;
+        }
+        @media screen and (min-width: 992px) {
+            padding: 70px;
+        }
+
+        .card__text {
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            @media screen and (min-width: 992px) {
+                width: 75%;
+            }
+            @media screen and (min-width: 1200px) {
+                width: 65%;
+            }
+            @media screen and (min-width: 1300px) {
+                width: 55%;
+            }
+            h3{
+            	margin-bottom: 46px;
+            }
+        }
+
+        .card__img {
+            height: 100%;
+            width: 63%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: 100%;
+            @media screen and (min-width: 992px) {
+                background-position: right center;
+            }
+        }
+    }
+}

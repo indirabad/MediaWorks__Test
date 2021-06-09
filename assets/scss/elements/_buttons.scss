@@ -1,0 +1,42 @@
+button{
+    border: none;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;    
+    text-align: center;    
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    border-radius: 4px;  
+    font-family: $font-extra;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1; 
+
+    // COLORS    
+
+    // .btn_primary
+    &_primary{
+        color: $c-white;
+        background: $c-primary;
+
+        &:hover,
+        &:focus {           
+            background: #db5321;
+        }
+    }
+
+    // SIXE   
+
+    // .btn_normal
+    &_normal{
+        padding: 16px 60px;
+    }
+
+    // .btn_big
+    &_big{
+        padding: 16px 60px;
+        width: 100%;
+    }
+}
