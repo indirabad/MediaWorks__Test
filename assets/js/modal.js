@@ -1,5 +1,5 @@
-let modal = document.getElementById("singUp");
-let btn = document.querySelector(".modal__btn");
+let modal = document.getElementById("app-signup-modal");
+let btn = document.querySelector(".app-btn-show-modal");
 let span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
